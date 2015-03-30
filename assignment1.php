@@ -20,8 +20,11 @@
 		return $area;
 	}
 
+	#Basic measurements
+	echo "Sides: " . $side1 . ", " . $side2 . ", " . $side3;
+	echo "<br>Angles: " . $angle1 . "*, " . $angle2 . "*, " . $angle3 . "*";
 	#Perimeter and Area
-	echo "Perimeter: " . perimeter($side1, $side2, $side3);
+	echo "<br><br>Perimeter: " . perimeter($side1, $side2, $side3);
 	echo "<br>Area: " . area($side1, $side2, $side3);
 	#Sine
 	echo "<br><br>Sine of Angle 1: " . sin($angle1);
