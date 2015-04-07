@@ -18,10 +18,15 @@
 		if((int)$q == 0 && $q != "0") {
 			$array_string[] = $q;
 		} else {
-			$array_int[] = $q;
+			$array_int[] = (int)$q;
 		}
 		echo $q . "<br>";
 	}
+
+	//sort string array
+	asort($array_string);
+	//sort int array
+	asort($array_int);
 
 	//echo string array
 	echo "<br>ARRAY_STRING<br>";
